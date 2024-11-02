@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="/img/emojimix.app_1_119.png">
+    <title>THM - Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us!</h1>
+    </header>
+    <ul id="links">
+        <li>
+            <a href="/index.html#Menu">Menu</a>
+        </li>
+        <li>
+            <a href="/Hours.html#Hours">Store Hours</a>
+        </li>
+        <li>
+            <a href="/index.html#About">About THM</a>
+        </li>
+        <li>
+            <a href="/Contact.html">Contact Us</a>
+        </li>
+    </ul>
+    <img src="/img/coffeeOnTable.jpeg" alt="Two coffee mugs on a table" width="700" height="500"
+        style="display: block; margin: auto;">
+    <hr>
+
+    <section id="Contact">
+        <h2>Contact us</h2>
+        
+        <form action="http://httpbin.org/post" method="post">
+            <fieldset>
+                <p> Let Us Know How We're Doing!</p>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="message" rows="10" cols="25" placeholder="Write your message here" required></textarea>
+                </p>
+                    <div id="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+                </div>
+            </fieldset>
+           
+        </form>
+        
+    </section>
+    <hr>
+    <footer>
+        <!--Special characters and a the copyright symbol-->
+        <p>&copy; The Happy Mug</p>
+        <p><a href="/"> Back to Home</a></p>
+    </footer>
+</body>
+
+</html>
